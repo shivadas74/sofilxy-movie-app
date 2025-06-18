@@ -56,3 +56,9 @@ demo_env_path
     "react-dom": "^18.2.0"
   }
 }
+cd sofilxy
+git init
+git remote add origin https://github.com/your-username/sofilxy.git
+git add .
+git commit -m "Initial commit"
+git push -u origin main
