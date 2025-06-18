@@ -21,3 +21,38 @@ with open(demo_env_path, "w") as f:
 
 
 demo_env_path
+/sofilxy-app
+ ├── pages/
+ │    └── index.js
+ ├── public/
+ ├── styles/
+ ├── .gitignore
+ ├── package.json
+ └── next.config.js
+ export default function Home() {
+  return (
+    <div style={{
+      color: '#fff',
+      backgroundColor: '#000',
+      minHeight: '100vh',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center'
+    }}>
+      <h1>🎬 Welcome to SOFILXY - A Netflix-style Movie App</h1>
+    </div>
+  );
+}
+{
+  "name": "sofilxy",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
